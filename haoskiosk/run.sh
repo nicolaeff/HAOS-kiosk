@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bashio
+export LIBGL_ALWAYS_SOFTWARE=1
 # shellcheck shell=bash
 # Clean up on exit:
 TTY0_DELETED="" #Need to set to empty string since runs with nounset=on (like set -u)
